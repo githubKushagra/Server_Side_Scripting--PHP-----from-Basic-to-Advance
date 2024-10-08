@@ -16,7 +16,7 @@ echo "<h1>" . $courseInfo["courseName"] . "</h1>";
 
 // Iterate over each chapter and print the summary
 foreach ($courseInfo["chapters"] as $chapterNumber => $summary) {
-    echo "<h2>$chapterNumber</h2>";
-    echo "<p>$summary</p>";
+    echo "<p>$chapterNumber - $summary</p>";
+    // echo "<p></p>";
 }
 ?>

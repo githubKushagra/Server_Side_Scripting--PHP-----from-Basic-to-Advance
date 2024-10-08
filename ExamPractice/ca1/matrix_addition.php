@@ -3,6 +3,7 @@
 function matrixAddition($matrix1, $matrix2) {
     $result = [];
 
+
     for ($i = 0; $i < count($matrix1); $i++) {
         for ($j = 0; $j < count($matrix2[0]); $j++) {
             $result[$i][$j] = $matrix1[$i][$j] + $matrix2[$i][$j];
