@@ -24,6 +24,23 @@
     $cars = array("volvo" , "scorpio" , "bmw" , "rolls royce");
     echo "I like " . $cars[0] . " , " . $cars[1] . " , " . $cars[2] . " , " . $cars[3] . "<br>";
 
+    // changing the value at a particular index
+    $cars[1] = "Ford";
+    echo "I like " . $cars[0] . " , " . $cars[1] . " , " . $cars[2] . " , " . $cars[3] . "<br>";
+
+
+    // through loop
+    foreach($cars as $x) {
+        echo $x . '<br>';
+    }
+
+    array_push($cars , "Maruti");    // append at the end
+    // through loop
+    foreach($cars as $x) {
+        echo $x . '<br>';
+    }
+
+
 ?>
 
 </body>
